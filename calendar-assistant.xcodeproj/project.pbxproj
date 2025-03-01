@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DF06FFE2D736F9600A46114 /* Vapi in Frameworks */ = {isa = PBXBuildFile; productRef = 4DF06FFD2D736F9600A46114 /* Vapi */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DF06FDA2D734D5900A46114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DF06FC12D734D5700A46114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DF06FC82D734D5700A46114;
+			remoteInfo = "calendar-assistant";
+		};
+		4DF06FE42D734D5900A46114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DF06FC12D734D5700A46114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DF06FC82D734D5700A46114;
+			remoteInfo = "calendar-assistant";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DF06FC92D734D5700A46114 /* calendar-assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "calendar-assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF06FD92D734D5900A46114 /* calendar-assistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "calendar-assistantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF06FE32D734D5900A46114 /* calendar-assistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "calendar-assistantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4DF06FFA2D73502600A46114 /* Exceptions for "calendar-assistant" folder in "calendar-assistant" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4DF06FC82D734D5700A46114 /* calendar-assistant */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4DF06FCB2D734D5700A46114 /* calendar-assistant */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4DF06FFA2D73502600A46114 /* Exceptions for "calendar-assistant" folder in "calendar-assistant" target */,
+			);
+			path = "calendar-assistant";
+			sourceTree = "<group>";
+		};
+		4DF06FDC2D734D5900A46114 /* calendar-assistantTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "calendar-assistantTests";
+			sourceTree = "<group>";
+		};
+		4DF06FE62D734D5900A46114 /* calendar-assistantUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "calendar-assistantUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DF06FC62D734D5700A46114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF06FFE2D736F9600A46114 /* Vapi in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF06FD62D734D5900A46114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF06FE02D734D5900A46114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DF06FC02D734D5700A46114 = {
+			isa = PBXGroup;
+			children = (
+				4DF06FCB2D734D5700A46114 /* calendar-assistant */,
+				4DF06FDC2D734D5900A46114 /* calendar-assistantTests */,
+				4DF06FE62D734D5900A46114 /* calendar-assistantUITests */,
+				4DF06FFC2D736F9600A46114 /* Frameworks */,
+				4DF06FCA2D734D5700A46114 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DF06FCA2D734D5700A46114 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DF06FC92D734D5700A46114 /* calendar-assistant.app */,
+				4DF06FD92D734D5900A46114 /* calendar-assistantTests.xctest */,
+				4DF06FE32D734D5900A46114 /* calendar-assistantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DF06FFC2D736F9600A46114 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DF06FC82D734D5700A46114 /* calendar-assistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF06FED2D734D5900A46114 /* Build configuration list for PBXNativeTarget "calendar-assistant" */;
+			buildPhases = (
+				4DF06FC52D734D5700A46114 /* Sources */,
+				4DF06FC62D734D5700A46114 /* Frameworks */,
+				4DF06FC72D734D5700A46114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4DF06FCB2D734D5700A46114 /* calendar-assistant */,
+			);
+			name = "calendar-assistant";
+			packageProductDependencies = (
+				4DF06FFD2D736F9600A46114 /* Vapi */,
+			);
+			productName = "calendar-assistant";
+			productReference = 4DF06FC92D734D5700A46114 /* calendar-assistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DF06FD82D734D5900A46114 /* calendar-assistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF06FF02D734D5900A46114 /* Build configuration list for PBXNativeTarget "calendar-assistantTests" */;
+			buildPhases = (
+				4DF06FD52D734D5900A46114 /* Sources */,
+				4DF06FD62D734D5900A46114 /* Frameworks */,
+				4DF06FD72D734D5900A46114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DF06FDB2D734D5900A46114 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4DF06FDC2D734D5900A46114 /* calendar-assistantTests */,
+			);
+			name = "calendar-assistantTests";
+			packageProductDependencies = (
+			);
+			productName = "calendar-assistantTests";
+			productReference = 4DF06FD92D734D5900A46114 /* calendar-assistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DF06FE22D734D5900A46114 /* calendar-assistantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF06FF32D734D5900A46114 /* Build configuration list for PBXNativeTarget "calendar-assistantUITests" */;
+			buildPhases = (
+				4DF06FDF2D734D5900A46114 /* Sources */,
+				4DF06FE02D734D5900A46114 /* Frameworks */,
+				4DF06FE12D734D5900A46114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DF06FE52D734D5900A46114 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4DF06FE62D734D5900A46114 /* calendar-assistantUITests */,
+			);
+			name = "calendar-assistantUITests";
+			packageProductDependencies = (
+			);
+			productName = "calendar-assistantUITests";
+			productReference = 4DF06FE32D734D5900A46114 /* calendar-assistantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DF06FC12D734D5700A46114 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					4DF06FC82D734D5700A46114 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					4DF06FD82D734D5900A46114 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 4DF06FC82D734D5700A46114;
+					};
+					4DF06FE22D734D5900A46114 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 4DF06FC82D734D5700A46114;
+					};
+				};
+			};
+			buildConfigurationList = 4DF06FC42D734D5700A46114 /* Build configuration list for PBXProject "calendar-assistant" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DF06FC02D734D5700A46114;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4DF06FFB2D736F7200A46114 /* XCRemoteSwiftPackageReference "vapi-client-sdk-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4DF06FCA2D734D5700A46114 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DF06FC82D734D5700A46114 /* calendar-assistant */,
+				4DF06FD82D734D5900A46114 /* calendar-assistantTests */,
+				4DF06FE22D734D5900A46114 /* calendar-assistantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DF06FC72D734D5700A46114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF06FD72D734D5900A46114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF06FE12D734D5900A46114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DF06FC52D734D5700A46114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF06FD52D734D5900A46114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF06FDF2D734D5900A46114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DF06FDB2D734D5900A46114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DF06FC82D734D5700A46114 /* calendar-assistant */;
+			targetProxy = 4DF06FDA2D734D5900A46114 /* PBXContainerItemProxy */;
+		};
+		4DF06FE52D734D5900A46114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DF06FC82D734D5700A46114 /* calendar-assistant */;
+			targetProxy = 4DF06FE42D734D5900A46114 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4DF06FEB2D734D5900A46114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DF06FEC2D734D5900A46114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DF06FEE2D734D5900A46114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"calendar-assistant/Preview Content\"";
+				DEVELOPMENT_TEAM = 8S4VNRP43F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "calendar-assistant/Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to microphone to talk to assistant";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hackathon.calendar-assistant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DF06FEF2D734D5900A46114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"calendar-assistant/Preview Content\"";
+				DEVELOPMENT_TEAM = 8S4VNRP43F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "calendar-assistant/Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to microphone to talk to assistant";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hackathon.calendar-assistant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DF06FF12D734D5900A46114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hackathon.calendar-assistantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calendar-assistant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/calendar-assistant";
+			};
+			name = Debug;
+		};
+		4DF06FF22D734D5900A46114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hackathon.calendar-assistantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calendar-assistant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/calendar-assistant";
+			};
+			name = Release;
+		};
+		4DF06FF42D734D5900A46114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hackathon.calendar-assistantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "calendar-assistant";
+			};
+			name = Debug;
+		};
+		4DF06FF52D734D5900A46114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hackathon.calendar-assistantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "calendar-assistant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DF06FC42D734D5700A46114 /* Build configuration list for PBXProject "calendar-assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF06FEB2D734D5900A46114 /* Debug */,
+				4DF06FEC2D734D5900A46114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF06FED2D734D5900A46114 /* Build configuration list for PBXNativeTarget "calendar-assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF06FEE2D734D5900A46114 /* Debug */,
+				4DF06FEF2D734D5900A46114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF06FF02D734D5900A46114 /* Build configuration list for PBXNativeTarget "calendar-assistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF06FF12D734D5900A46114 /* Debug */,
+				4DF06FF22D734D5900A46114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF06FF32D734D5900A46114 /* Build configuration list for PBXNativeTarget "calendar-assistantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF06FF42D734D5900A46114 /* Debug */,
+				4DF06FF52D734D5900A46114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4DF06FFB2D736F7200A46114 /* XCRemoteSwiftPackageReference "vapi-client-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gefilte/vapi-client-sdk-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4DF06FFD2D736F9600A46114 /* Vapi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DF06FFB2D736F7200A46114 /* XCRemoteSwiftPackageReference "vapi-client-sdk-ios" */;
+			productName = Vapi;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4DF06FC12D734D5700A46114 /* Project object */;
+}

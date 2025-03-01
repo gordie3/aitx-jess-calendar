@@ -1,0 +1,24 @@
+{
+  "originHash" : "9ee49d9e6817b44e7663dcb972b3104e2edceae708a544bf126fe0fb57a32061",
+  "pins" : [
+    {
+      "identity" : "daily-client-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/daily-co/daily-client-ios",
+      "state" : {
+        "revision" : "3aca87efb92193bfd8c5bbedcdfe8b068572e882",
+        "version" : "0.29.0"
+      }
+    },
+    {
+      "identity" : "vapi-client-sdk-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gefilte/vapi-client-sdk-ios",
+      "state" : {
+        "branch" : "main",
+        "revision" : "1256b89017595b6d85122876fcdc517c7992d8bd"
+      }
+    }
+  ],
+  "version" : 3
+}
