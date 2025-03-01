@@ -1,6 +1,6 @@
 # JESS Calendar Assistant
 
-JESS Calendar Assistant is an AI-powered voice assistant application for iOS/macOS that helps you manage your calendar events through natural language conversations.
+JESS Calendar Assistant is an AI-powered voice assistant application for iOS/macOS that helps you manage your calendar events through natural language conversations. The calendar is backed by Google Calendar.
 
 ## Features
 
