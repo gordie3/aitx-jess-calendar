@@ -9,6 +9,12 @@ JESS Calendar Assistant is an AI-powered voice assistant application for iOS/mac
 - **Visual Feedback**: Real-time visual feedback during voice interactions
 - **Event Notifications**: Receive confirmation popups when events are created, updated, or deleted
 
+### App Screenshots
+
+<img width="302" alt="Screenshot 2025-03-01 at 12 43 31 PM" src="https://github.com/user-attachments/assets/ffb60652-38c5-428a-86c3-60a60565750b" />
+<img width="307" alt="Screenshot 2025-03-01 at 12 43 50 PM" src="https://github.com/user-attachments/assets/c9ed7609-aded-4299-aa32-97def486124c" />
+
+
 ## Requirements
 
 - iOS 16.0+ / macOS 13.0+
